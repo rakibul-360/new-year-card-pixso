@@ -1,0 +1,41 @@
+
+
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+    margin: 50px 140px 0px 140px;
+    /* margin: 0 auto; */
+}
+
+/* header section */
+.celebration{
+    
+    background-image:linear-gradient(to bottom, rgba(7, 2, 17, 0.8), rgba(7, 2, 17, 0.2)),  url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: cente top;
+    /* background-size: contain; */
+    background-size: cover;
+    height: 600px;
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-cele{
+    text-align: center;
+    color: whitesmoke;
+}
+.text-cele h1{
+    font-size: 76px;
+    color: white;
+}
+.text-cele h5{
+    font-size: 32px;
+    color: white;
+}
